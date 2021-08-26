@@ -3,6 +3,10 @@ import os
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
+# Create dir structure
+if not os.path.exists('splitted'):
+    os.makedirs('splitted')
+
 # Folder Path
 path = "to-split"
   
@@ -25,5 +29,5 @@ for file in os.listdir():
         for i in range(inputpdf.numPages):
             output = PdfFileWriter()
             output.addPage(inputpdf.getPage(i))
-            with open(dirPath+"/splited/page_%s.pdf" % i, "wb") as outputStream:
+            with open(dirPath+"/splitted/page_%s.pdf" % i, "wb") as outputStream:
                 output.write(outputStream)
