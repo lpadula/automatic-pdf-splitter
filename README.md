@@ -1,6 +1,6 @@
 # Automatic PDF Splitter
 
-This script can create new single-page PDFs files from multipages PDFs.
+This script can create new single-page PDFs files from multipaged PDFs.
 
 ## Requirements
 
