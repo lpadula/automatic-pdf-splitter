@@ -25,4 +25,4 @@ pip install PyPDF2
 automatic_pdf_splitter.py
 ```
 
-3. You will find splited files on "splitted" directory.
+3. You will find splitted files on "splitted" directory.
