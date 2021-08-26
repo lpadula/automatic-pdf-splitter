@@ -1,13 +1,14 @@
 # Automatic PDF Splitter
 
-This script can split a PDF file with multiple pages into multiples files with individual pages on it.
+This script can create new single-page PDFs files from multipages PDFs.
 
 ## Requirements
 
 Python 3.0+
 
 ```
-apt-get install python3
+# Debian distros
+sudo apt-get install python3
 ```
 
 PyPDF2
